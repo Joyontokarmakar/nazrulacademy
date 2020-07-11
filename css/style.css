@@ -1,0 +1,737 @@
+/*===================================
+Google fonts
+-------------------------------------
+Raleway and open sans and Changa
+-------------------------------------
+Color:
+    Common Color:   #60a996
+    Grey:           #212226
+    White Smoke:    #f4f4f4
+    White:          #fff
+    Black:          #000
+    Gradient:       linear-gradient(90deg, #60a996,                     #3a3e3e);
+    
+====================================*/
+
+/*#################################################
+            Common Sections in all Page
+#################################################*/
+
+/*===========Gutter Start===========*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../image/background/boxed-bg.jpg);
+}
+
+.nogutter {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fullbody {
+    background-color: #fff;
+}
+
+/*===========Gutter End===========*/
+
+/*===========Top Bar start===========*/
+.black {
+    height: 25px;
+    background-color: #fff;
+}
+
+.black ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.black ul li a {
+    color: #000;
+}
+
+.black ul li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*===========Top Bar End===========*/
+
+/*===========Main Menu Start===========*/
+.navbar-brand img {
+    height: 75px;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+/*===========Main Menu End===========*/
+
+/*===========footer Section Start=============*/
+.ftsection {
+    background-color: #343a40;
+    height: auto;
+}
+
+
+.ft_logo img {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    margin: auto;
+    height: 68px;
+}
+
+.ft_logo p {
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    color: #ebebeb;
+}
+
+.ft_menur {
+    background-color: #313131;
+}
+
+/*
+                            Developed by Joyonto Karmakar
+                            ID# 2017000000252
+                            Computer Science and Engineering Department
+                            Southeast University
+                            contact: 01727244864
+                            fb: facecook.com / joyontostd
+*/
+
+.ftm_trns h3,
+.ftmenu_title h5,
+.ft_quicklink h5 {
+    text-align: left;
+    color: #6097ef;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+
+.ftm_img > img {
+    height: 30px;
+    border: 3px solid #464646;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.ftm_txt {
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.ftm_txt h4 a {
+    font-size: 11px;
+}
+
+.ftm_txt h4 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ftm_txt > p {
+    color: #5e5e5e;
+    font-size: 10px;
+}
+
+.ftmenu_title ul li,
+.ft_quicklink ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.ft_quicklink ul li a i {
+    margin-right: 5px;
+}
+
+.ftmenu_title ul li a,
+.ft_quicklink ul li a {
+    color: #fff;
+}
+
+.ftmenu_title ul li a:hover,
+.ft_quicklink ul li a:hover {
+    color: #94cdff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.copyrgt {
+    width: 100%;
+    height: 25px;
+    background-color: #60a996;
+    color: aliceblue;
+}
+
+.copyrgt p {
+    text-align: center;
+}
+
+/*===========footer Section End=============*/
+
+/*===========Scroll to top start===========*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #60a996;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+
+/*===========Scroll to top End===========*/
+
+/*==============Selection Start=================*/
+
+::selection {
+    color: #fff;
+    background: #60a996;
+}
+
+/*==============Selection End=================*/
+
+/*#################################################
+                    Home Page
+#################################################*/
+
+/*===========Banner Section Start===========*/
+/*
+                            Developed by Joyonto Karmakar
+                            ID# 2017000000252
+                            Computer Science and Engineering Department
+                            Southeast University
+                            contact: 01727244864
+                            fb: facecook.com / joyontostd
+*/
+.rcnt_notice {
+    margin-top: 2px;
+    margin-bottom: -10px;
+    width: 100%;
+}
+
+.ntc {
+    background: linear-gradient(90deg, #60a996, #3a3e3e);
+    color: #fff;
+    height: 21px;
+    margin-top: 2px;
+}
+
+.ntc h4,
+.ntcn h4 {
+    font-size: 16px;
+}
+
+.ntcn h4 {
+    margin-top: 3px;
+    color: #60a996;
+    font-weight: bold;
+}
+
+/*
+
+.bannertext{
+    bottom: 40%;
+}
+
+.bannertext h5,
+.bannertext p{
+    font-weight: bold;
+    color: #60a996;
+}
+
+.bannertext h5{
+    font-size: 30px;
+}
+*/
+
+/*===========Banner Section End===========*/
+
+
+/*===========Activities Section Start===========*/
+/*===========Activities Section End===========*/
+
+
+/*===========thaumbnail Section Start===========*/
+.thubmnail,
+.academic,
+.intro,
+.teacher_section,
+.course_section {
+    margin-top: 60px;
+}
+
+.thumb h1 {
+    text-align: center;
+}
+
+.thumb h5 {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.thumb p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.thumb p a:hover {
+    text-decoration: none;
+}
+
+/*===========thaumbnail Section End===========*/
+
+
+/*===========Academic section Start=============*/
+
+.card {
+    padding: 10px;
+}
+
+.btn-custom {
+    background: linear-gradient(90deg, #60a996, #859898);
+    color: #fff;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.academic_head p {
+    padding: 0px 100px;
+    margin-top: 25px;
+}
+
+/*===========Academic section End=============*/
+
+/*===========video section Start=============*/
+
+.vdo_section {
+    margin-top: 30px;
+}
+
+.intro video {
+    position: absolute;
+    z-index: -1;
+}
+
+.intro {
+    height: 250px;
+    width: 100%;
+
+}
+
+.vdoverly {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 56, 53, 0.55);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-vdo {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: 7px 51px;
+    font-size: 15px;
+    background: linear-gradient(90deg, #282b2d, #3fbfbf, #282b2d);
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.intro a {}
+
+.btn-vdo:hover {
+    background: linear-gradient(90deg, #3fbfbf, #282b2d, #3fbfbf);
+    color: #fff;
+}
+
+/*===========video section End=============*/
+
+/*===========Counter section Start=============*/
+.middle {
+    width: 100%;
+}
+
+.counting-sec {
+    padding: 40px 0;
+    background: linear-gradient(90deg, #60a996, #3a3e3e);
+}
+
+.inner-width {
+    margin: auto;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.col i {
+    font-size: 40px;
+    color: #333;
+}
+
+.num {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+/*===========Counter section End=============*/
+/*
+                            Developed by Joyonto Karmakar
+                            ID# 2017000000252
+                            Computer Science and Engineering Department
+                            Southeast University
+                            contact: 01727244864
+                            fb: facecook.com / joyontostd
+*/
+/*===========Sponsor Part start===========*/
+.spnsr {
+    text-align: center;
+    padding: 40px 0px;
+    width: 100%;
+}
+
+.spnsr-img {
+    padding: 0px 0px 0px 80px;
+}
+
+.spnsr-img > img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+    float: left
+}
+
+.spnsr-img > img:hover {
+    filter: none;
+}
+
+/*===========Sponsor Part End===========*/
+
+
+/*#################################################
+                    About Us Page
+#################################################*/
+
+.aboutus h4 {
+    margin-top: 25px;
+}
+
+.divide {
+    height: 6px;
+    background-color: #60a996;
+    margin-bottom: 10px;
+}
+
+.aboutus p {
+    text-align: justify;
+    font-size: 13px;
+}
+
+
+/*#################################################
+                    Gallery Page
+#################################################*/
+
+.gallery-section {
+    width: 100%;
+    padding: 60px 0;
+    background: #f1f1f1;
+}
+
+.gal-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.gallery-section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.border {
+    width: 180px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+}
+
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.gallery-section .image {
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-section .image img {
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(150%);
+}
+
+.gallery-section .image:hover img {
+    filter: brightness(100%);
+    transform: scale(3);
+}
+
+@media screen and (max-width:960px) {
+    .gallery-section .image {
+        flex: 33.33%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .gallery-section .image {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .gallery-section .image {
+        flex: 100%;
+    }
+}
+
+
+
+/*#################################################
+                    Contact Us Page
+#################################################*/
+
+/*
+                            Developed by Joyonto Karmakar
+                            ID# 2017000000252
+                            Computer Science and Engineering Department
+                            Southeast University
+                            contact: 01727244864
+                            fb: facecook.com / joyontostd
+*/
+.name {
+    background-color: #d5e6e2;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #bed4ce;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 40px;
+}
+
+.mail {
+    background-color: #d5e6e2;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #bed4ce;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 40px;
+}
+
+.message {
+    background-color: #d5e6e2;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #bed4ce;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 80px;
+}
+
+.bttn {
+    background: linear-gradient(90deg, #60a996, #859898);
+    color: white;
+    transition: .8s;
+    line-height: 50%;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    height: 35px;
+}
+
+.bttn:hover {
+    background-color: #006f73;
+    color: white;
+    border-radius: 5px;
+}
+
+iframe {
+    border: 1px solid #bed4ce;
+}
+
+/*
+                            Developed by Joyonto Karmakar
+                            ID# 2017000000252
+                            Computer Science and Engineering Department
+                            Southeast University
+                            contact: 01727244864
+                            fb: facecook.com / joyontostd
+*/
+
+/*#################################################
+                    Teacher Page
+#################################################*/
+.tcr {
+    padding: 25px;
+}
+
+.tcr_dtls {
+    margin-top: 8px;
+    background-color: #60a9964d;
+    height: 200px;
+}
+
+.tcr_info {
+    line-height: 5px;
+    margin-top: 30px;
+}
+
+.tcr_info h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tcr_info p {
+    font-size: 15px;
+}
+
+.tcr_img img {
+    border: 1px solid #827979e0;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 2px #564c4c8c;
+    position: absolute;
+    top: 14%;
+    left: 28%;
+    margin: auto;
+    height: 150px;
+    width: 135px;
+}
+
+
+/*################################################
+                    Courses Page
+#################################################*/
+
+.crs {
+    padding: 25px;
+}
+
+.grp_nm {
+    margin: 10px 0px;
+    background-color: #60a996;
+    color: #fff;
+    text-align: center;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.grp_nm h5 {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.cls {
+    margin-top: 10px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+}
+
+.cls_nm h6 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: #476b98;
+}
+
+.cls_nm p {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    margin: auto;
+    color: #000;
+    font-weight: bold;
+}
+
+.crs_nm {
+    padding: 5px 5px;
+}
+
+.crs_info a {
+    color: #000;
+}
+
+.crs_info a:hover {
+    text-decoration: none;
+    background-color: #cbcbcb42;
+}

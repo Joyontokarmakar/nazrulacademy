@@ -1,0 +1,70 @@
+/* medium layout: 1280px. */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {}
+
+/* tablet layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/*mobile layout: 320px */
+
+@media only screen and (max-width: 767px) {
+    .thumb h1 {
+        margin-top: 18px;
+    }
+
+    .academic_head p {
+        padding: 0px 3px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .ft_logo img {
+        left: 40%;
+    }
+
+    .ft_logo p {
+        position: relative;
+        margin-top: 130px;
+        color: #ebebeb;
+        margin-right: 100px;
+    }
+
+    .tcr_dtls {
+        height: auto;
+    }
+
+    .tcr_img {
+        margin-top: 10px;
+    }
+
+    .tcr_info_1 {
+        margin-top: 185px;
+    }
+
+    .cls_nm_rspnsv {
+        margin: 0px 0px 35px 75px;
+    }
+/*
+                            Developed by Joyonto Karmakar
+                            ID# 2017000000252
+                            Computer Science and Engineering Department
+                            Southeast University
+                            contact: 01727244864
+                            fb: facecook.com / joyontostd
+*/
+                                
+    .cls_nm p {
+        text-align: center;
+        top: 142%;
+    }
+
+
+}
+
+/* wide mobile layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
